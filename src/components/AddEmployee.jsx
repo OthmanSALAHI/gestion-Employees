@@ -40,7 +40,14 @@ function AddEmployee () {
                         </tr>
                         <tr>
                             <td>departement</td>
-                            <td><input type="text" name="dep" required /></td>
+                            <td>
+                                <select name="dep" id="" required>
+                                    <option>ACHAT</option>    
+                                    <option>VENTE</option>    
+                                    <option>HR</option>    
+                                    <option>MARKETING</option>    
+                                </select>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

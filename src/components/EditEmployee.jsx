@@ -32,7 +32,14 @@ function EditEmployee () {
                         </tr>
                         <tr>
                             <td>departement</td>
-                            <td><input type="text" value={dep} name="dep" onChange={(e)=>setDep(e.target.value)} required /></td>
+                            <td>
+                            <select value={dep} name="dep" onChange={(e)=>setDep(e.target.value)} required>
+                                    <option>ACHAT</option>    
+                                    <option>VENTE</option>    
+                                    <option>HR</option>    
+                                    <option>MARKETING</option>    
+                                </select>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

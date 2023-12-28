@@ -1,7 +1,7 @@
 const init = {
     employees : [
-        {mat : 100, name : "rami" , dep : "achat"},
-        {mat : 101, name : "achraf" , dep : "vante"},
+        {mat : 100, name : "rami" , dep : "ACHAT"},
+        {mat : 101, name : "achraf" , dep : "VANTE"},
     ]
 }
 
